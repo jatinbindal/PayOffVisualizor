@@ -1,0 +1,45 @@
+{
+  "name": "payoffviz",
+  "version": "1.0.0",
+  "description": "stock/options pay off calculator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --mode development --open --hot",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jatinbindal/payoffcalculatorfrontend.git"
+  },
+  "author": "Jatin Bindal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jatinbindal/payoffcalculatorfrontend/issues"
+  },
+  "homepage": "https://github.com/jatinbindal/payoffcalculatorfrontend#readme",
+  "dependencies": {
+    "@material-ui/core": "^4.11.2",
+    "@material-ui/icons": "^4.11.2",
+    "@material-ui/lab": "^4.0.0-alpha.57",
+    "@nivo/core": "^0.67.0",
+    "@nivo/line": "^0.67.0",
+    "css-loader": "^5.0.1",
+    "file-loader": "^6.2.0",
+    "fontsource-roboto": "^3.1.5",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "style-loader": "^2.0.0",
+    "webpack": "^4.35.0",
+    "webpack-cli": "^3.3.5n",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.10",
+    "@babel/preset-react": "^7.12.10",
+    "babel-loader": "^8.2.2",
+    "html-webpack-plugin": "^4.5.0",
+    "html-webpack-template": "^6.2.0"
+  }
+}
